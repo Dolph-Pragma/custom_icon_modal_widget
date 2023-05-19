@@ -1,3 +1,3 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+Es un modal el cual muestra un icono, titulo, subtitulo y boton para cerrar.

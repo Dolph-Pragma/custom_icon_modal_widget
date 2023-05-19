@@ -1,7 +1,7 @@
 name: custom_icon_modal_widget
-description: A new Flutter package project.
+description: Es un modal el cual muestra un icono, titulo, subtitulo y boton para cerrar.
 version: 0.0.1
-homepage:
+homepage: https://github.com/Dolph-Pragma/custom_icon_modal_widget
 
 environment:
   sdk: '>=2.19.6 <3.0.0'

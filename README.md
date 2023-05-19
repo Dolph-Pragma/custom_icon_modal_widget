@@ -16,12 +16,13 @@ know whether this package might be useful for them.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Es un modal personalizado sencillo.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```yaml
+    custom_icon_modal_widget: 0.0.1
+```
 
 ## Usage
 
@@ -29,7 +30,17 @@ TODO: Include short and useful examples for package users. Add longer examples
 to `/example` folder.
 
 ```dart
-const like = 'sample';
+CustomIconModal customIconModal = CustomIconModal();
+
+onPressed: () {
+          customIconModal.showDialogModalIcon(
+            context: context,
+            iconData: Icons.info,
+            title: 'Título del modal',
+            subtitle: 'Subtítulo del modal',
+            buttonText: 'Cerrar',
+          );
+        },
 ```
 
 ## Additional information
