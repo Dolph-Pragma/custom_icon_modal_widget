@@ -12,8 +12,7 @@ Es un modal personalizado sencillo.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Se puede ver el uso correcto en la pestaña del example.
 
 ```dart
 CustomIconModal customIconModal = CustomIconModal();
